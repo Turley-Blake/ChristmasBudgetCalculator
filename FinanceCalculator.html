@@ -1,0 +1,138 @@
+<!DOCTYPE>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Blake Turley">
+
+    <link rel="stylesheet" href="pzaz.css">
+    <script type="text/javascript">
+    function christCalc() {
+    
+    var sal = parseInt(document.getElementById('salary').value);
+    var ben = parseInt(document.getElementById('benefits').value);
+    var oth = parseInt(document.getElementById('other').value);
+    var mort= parseInt(document.getElementById('mortgages').value);
+    var ren = parseInt(document.getElementById('rent').value);
+    var util = parseInt(document.getElementById('utilities').value);
+    var cred = parseInt(document.getElementById('creditcard').value);
+    var loa = parseInt(document.getElementById('loans').value);
+    var ins = parseInt(document.getElementById('insurance').value);
+    var veh = parseInt(document.getElementById('vehicle').value);
+     var oth2 = parseInt(document.getElementById('other2').value);
+
+    var income = sal + ben + oth;
+    var expenditure = mort + ren + util + cred + loa + ins + veh + oth2;
+
+    var total = income - expenditure;
+
+    document.getElementById('total').value = total;
+}
+    </script>
+</head>
+
+<body>
+    <div id="everything">
+        <div id="snow">
+</div>
+        <p class="h1">Christmas Budget Calculator</p>
+
+        <!--This is the ART section -->
+
+        <div id="snowman">
+            <div id="movehat">
+            <div id="hattop"></div>
+            <div id="hatbot"></div>
+            </div>
+            <div id="ball"></div>
+            <div id="ball1"></div>
+            <div id="ball2"></div>
+            <div id="eye"></div>
+            <div id="eye1"></div>
+            <div id="nose"></div>
+            <div id="totalsign">
+                <p class="hcenter">Total</p>
+                <input type="text" id="total">
+                <button type="button" onClick="christCalc()" id="button">Get Total</button>
+            </div>
+        </div>
+
+        <div id="cloud1">
+            <div id="circle"></div>
+            <div id="circle1"></div>
+            <div id="circle2"></div>
+            <div id="circle3"></div>
+            <div id="circle4"></div>
+        </div>
+
+        <div id="snowyground">
+            <div id="oval"></div>
+            <div id="oval1"></div>
+            <div id="oval2"></div>
+        </div>
+
+        <div id="tree">
+            <div id="redornament"></div>
+            <div id="redornament1"></div>
+            <div id="blueornament"></div>
+            <div id="blueornament1"></div>
+            <div id="movestar">
+                <div id="star"></div>
+            </div>
+            <div id="triangle"></div>
+            <div id="triangle2"></div>
+            <div id="triangle3"></div>
+            <div id="triangle4"></div>
+            <div id="triangle5"></div>
+            <div id="bigtriangle"></div>
+            <div id="base"></div>
+        </div>
+
+        <!--This is the CONTENT section-->
+
+        <div id="content">
+            <p class="h2">Income</p>
+            <div id="monthlysavings">
+                <div id="separate">
+                    <span class="br">Salary: $<input type="text" id="salary"></span>
+                </div>
+                <div id="separate">
+                    <span class="br">Benefits: $<input type="text" id="benefits"></span>
+
+                </div>
+                <div id="separate">
+                    <span class="br">Other: $<input type="text" id="other"></span>
+                </div>
+            </div>
+            <p class="h2">Expenditure</p>
+            <div id="monthlyexpenses">
+                <div id="separate1">
+                    <span class="br">Mortgages: $<input type="text" id="mortgages"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Rent: $<input type="text" id="rent"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Utilities: $<input type="text" id="utilities"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Credit Cards: $<input type="text" id="creditcard"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Loans: $<input type="text" id="loans"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Insurance: $<input type="text" id="insurance"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Vehicle: $<input type="text" id="vehicle"></span>
+                </div>
+                <div id="separate1">
+                    <span class="br">Other: $<input type="text" id="other2"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

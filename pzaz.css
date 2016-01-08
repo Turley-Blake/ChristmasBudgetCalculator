@@ -1,0 +1,583 @@
+/** pzaz.css **/
+
+
+/** ART **/
+
+
+/** Snowman **/
+
+#snowman {
+    position: relative;
+    bottom: 5em;
+}
+
+#movehat {
+    position: relative;
+    top: 20px;
+}
+
+#hattop {
+    width: 85px;
+	height: 60px;
+    border-radius: 5px;
+	background: black;
+    position: relative;
+    left: 74em;
+    top: 26em;
+    z-index: 5;
+}
+
+#hatbot {
+    width: 125px;
+	height: 10px;
+    border-radius: 5px;
+	background: black;
+    position: relative;
+    left: 72.7em;
+    top: 25.5em;
+    z-index: 5;
+}
+
+#ball {
+    width: 200px;
+    height: 200px;
+    background: snow;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 500px;
+    float: left;
+    position: relative;
+    top: 36em;
+    left: 71em;
+    z-index: 3;
+}
+
+#ball2 {
+    width: 150px;
+    height: 150px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 500px;
+    position: relative;
+    float: left;
+    left: 53.5em;
+    top: 30em;
+    z-index: 4;
+}
+
+#ball1 {
+    width: 100px;
+    height: 100px;
+    background: snow;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: left;
+    position: relative;
+    left: 61em;
+    top: 25em;
+}
+
+#eye {
+    width: 15px;
+    height: 15px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 75em;
+    top: 27em;
+}
+
+#eye1 {
+    width: 15px;
+    height: 15px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 77em;
+    top: 26em;
+}
+
+#nose {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 60px solid orange;
+    border-bottom: 1px solid transparent;
+    position: relative;
+    left: 72.6em;
+    top: 26.3em;
+}
+
+#totalsign {
+    width: 300px;
+    height: 200px;
+    background: #8c5d3a;
+    float: right;
+    position: relative;
+    right: 34em;
+    top: 29em;
+    z-index: 4;
+}
+
+
+/** Cloud **/
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: right;
+    position: relative;
+    right: 25px;
+    z-index: 1;
+}
+
+#circle1 {
+    width: 160px;
+    height: 150px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    left: 10px;
+    bottom: 35px;
+    z-index: 2;
+}
+
+#circle2 {
+    width: 110px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: right;
+    position: relative;
+    left: 12em;
+    top: 40px;
+    z-index: 3;
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 10em;
+    bottom: 25px;
+    float: right;
+    z-index: 4;
+}
+
+#circle4 {
+    width: 125px;
+    height: 120px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: right;
+    position: relative;
+    left: 22.4em;
+    bottom: 55px;
+    z-index: 5;
+}
+
+#oval {
+    width: 1100px;
+    height: 115px;
+    background: snow;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    position: relative;
+    z-index: 2;
+    overflow: auto;
+    float: right;
+    left: 40em;
+    top: 40em;
+}
+
+#oval1 {
+    width: 900px;
+    height: 101px;
+    background: lightgray;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    overflow: auto;
+    float: right;
+    position: relative;
+    top: 32em;
+    left: -15em;
+    z-index: 1;
+}
+
+#oval2 {
+    width: 1000px;
+    height: 125px;
+    background: snow;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    overflow: auto;
+    position: relative;
+    top: 32.5em;
+    right: 25px;
+    z-index: 1;
+}
+
+
+/** Tree **/
+
+#movestar {
+    position: relative;
+    bottom: 13.5em;
+    left: 11em;
+    z-index: 3;
+}
+
+#star {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid gold;
+    position: relative;
+    float: left;
+}
+
+#star:after {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid gold;
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: -25px;
+}
+
+#redornament {
+    width: 35px;
+    height: 35px;
+    background: red;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    z-index: 5;
+    position: relative;
+    left: 9em;
+    top: 5em;
+}
+
+#redornament1 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    z-index: 6;
+    position: relative;
+    left: 15em;
+    top: 10em;
+}
+
+#blueornament {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    z-index: 6;
+    position: relative;
+    left: 13em;
+    top: 4em;
+}
+
+#blueornament1 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    z-index: 6;
+    position: relative;
+    left: 7em;
+    top: 8em;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid green;
+    position: relative;
+    left: 125px;
+    bottom: 175px;
+    z-index: 2;
+}
+
+#triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 100px solid green;
+    position: relative;
+    left: 80px;
+    bottom: 150px;
+    z-index: 3;
+}
+
+#triangle3 {
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 115px solid green;
+    position: relative;
+    left: 65px;
+    bottom: 215px;
+    z-index: 4
+}
+
+#triangle4 {
+    width: 0;
+    height: 0;
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 100px solid green;
+    position: relative;
+    left: 7.3em;
+    bottom: 28.5em;
+    z-index: 2;
+}
+
+#triangle5 {
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid green;
+    position: relative;
+    left: 93px;
+    bottom: 32em;
+    z-index: 2;
+}
+
+#base {
+    width: 40px;
+    height: 100px;
+    position: relative;
+    left: 11em;
+    bottom: 30em;
+    background: brown;
+    z-index: -1;
+}
+
+#bigtriangle {
+    border-bottom: 100px solid green;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    height: 0;
+    position: relative;
+    bottom: 28em;
+    left: 28px;
+    width: 100px;
+    z-index: 5;
+}
+
+#tree {
+    position: relative;
+}
+
+@font-face {
+font-family: 'Beyond Wonderland';
+font-style: normal;
+font-weight: normal;
+src: local('Beyond Wonderland.woff'), url('Beyond Wonderland.woff') format('woff');
+}
+
+
+/** H1 FONT **/
+
+.h1 {
+    font-family: "Beyond Wonderland";
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 0 1px 0 black, 0 -1px black;
+    font-size: 90px;
+    word-wrap: normal;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/** H2 FONT **/
+
+.h2 {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 18px;
+}
+
+.hcenter {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/** CONTENT POSITIONING **/
+
+#content {
+    position: relative;
+    bottom: 5em;
+    left: 25em;
+    z-index: 1;
+    position: absolute;
+}
+
+body {
+    background-color: skyblue;
+    font-family: 'Mountains of Christmas', cursive;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.br {
+    display: block;
+}
+
+#monthlysavings {
+    background-color: darkgreen;
+    max-width1: 30em;
+    height: 11.5em;
+    border-radius: 10px;
+}
+
+#separate {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+}
+
+#monthlyexpenses {
+    background-color: darkgreen;
+    max-width: 30em;
+    height: 28.5em;
+    border-radius: 10px;
+}
+
+#separate1 {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 7px;
+    border-radius: 10px;
+}
+
+#separate2 {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 16px;
+    border-radius: 10px;
+}
+
+#total {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: green;
+    width: 10em;
+    height: 3em;
+    position: relative;
+    bottom: 25px;
+    font-size: 18px;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#button {
+    display: block;
+    margin: 15 auto;
+    width: 75px;
+    height: 50px;
+    background: red;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#snowyground {
+    position: relative;
+    bottom: 10em;
+}
+
+/* SNOW */
+
+body { background-color:#; }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
